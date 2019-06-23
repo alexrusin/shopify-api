@@ -1,0 +1,28 @@
+{
+    "name": "alexrusin/shopify-api",
+    "authors": [
+        {
+            "name": "Alex Rusin",
+            "email": "alexrusin_2000@yahoo.com"
+        }
+    ],
+    "require": {
+        "luketowers/php-shopify-api": "dev-master"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^8.2",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apr\\ShopifyApi\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
